@@ -1,0 +1,262 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background-image: url(../新想事成.JPG);
+    background-size:100% 100%; 
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0;
+}
+
+/*标题*/
+.header {
+    float: left;
+    position: relative;
+    margin-left:130px;
+    margin-right:300px ;
+    margin-top: 90px;
+}
+.header h1 {
+    color:pink;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:5px 5px rgb(2, 2, 2);
+    font-size:100px;
+    line-height: 60%;
+}
+
+.headerimg {
+    display:block;
+    background-image: url(./play图片/林杨/1.gif);
+    width:450px;
+    height: 280px;
+    border:rgb(168, 186, 245) solid;
+    border-radius:25px;
+    background-size: cover;
+    margin-top:3px;
+    margin-left:750px;
+}
+
+/*导航条*/
+.topmenu {
+    position: absolute;
+    list-style-type: none;
+    margin-left: 145px;
+    margin-top: -55px;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+    width:388px;
+    border: snow solid 5px;
+    border-radius:25px;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a {
+    display: inline-block;
+    color: white;
+    font-size:150% ;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.topmenu li a:hover {
+    background-color: rgb(248, 134, 153);
+}
+.topmenu li a.active {
+    color: white;
+    background-color: rgb(248, 134, 153);
+}
+.array {
+    background-image: url(../array.png);
+    background-size: cover;
+    width:96px;
+    height:55px;
+    margin-left: 555px;
+    margin-top: -55px;
+}
+.topmenuw {
+    background-color: peachpuff;
+    width: 500px;
+    margin-left: 670px;
+    margin-top: -58px;
+}
+.topmenuw p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: slateblue;
+    font-size:25px;
+    text-align:center;
+}
+
+
+
+/*分割线*/
+hr {
+    border: 6px dashed salmon; 
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 17px;
+}
+
+/*标题装饰*/
+.xingqiu {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-left:80px;
+    margin-top: 110px;
+    background-image: url(../星球.png);
+    background-size: cover;
+}
+.brush {
+    position: absolute;
+    background-image: url(../brushblue.png);
+    background-size: cover;
+    width:280px;
+    height: 85px;
+    margin-left: 340px;
+    margin-top:195px;
+    opacity:0.9;
+    filter:alpha(opacity=90); /*  IE8 及其更早版本 */
+}
+
+/*小的导航栏背景*/
+.img1 {
+    position: relative;
+    background-image: url(./play图片/紫色背景.jpeg);
+    background-size: cover;
+    width:250px;
+    height:380px;
+    opacity:0.9;
+    filter:alpha(opacity=90); /*  IE8 及其更早版本 */
+    margin-left: 150px;
+    z-index: -1;
+}
+    
+/*小的导航栏*/
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.sidemenu {
+    width: 250px;
+    margin-left: 150px;
+    margin-top: -370px;
+
+}
+.content {
+    width: 100px;
+}
+.sidemenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidemenu li a {
+    margin-bottom: 4px;
+    display: block;
+    padding: 8px;
+    background-color: rgb(252, 208, 208);
+    text-decoration: none;
+    color: black;
+}
+.sidemenu li a:hover {
+    background-color: rgb(255, 214, 221);
+    color: black;
+}
+.sidemenu li a.active {
+    background-color:rgb(253, 167, 167);
+    color: white;
+}
+
+/*内容*/
+.lyphoto1 {
+    width: 385px;
+    height:230px;
+    margin-left: 450px;
+    margin-top: -400px;
+    border:rgb(168, 186, 245) solid 5px;
+}
+
+.text1 {
+    width: 315px;
+    height:175px;
+    margin-left:900px;
+    margin-top: -200px;
+    background-color:white;
+    border: lightpink double 5px;
+    opacity:0.9;
+    filter:alpha(opacity=90); /*  IE8 及其更早版本 */
+}
+
+.text1 p {
+    font-family: inherit;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.text2 {
+    width:415px;
+    height:315px;
+    margin-left:470px;
+    margin-top: 50px;
+    background-color:white;
+    border: lightpink double 5px;
+    opacity:0.9;
+    filter:alpha(opacity=90); /*  IE8 及其更早版本 */
+}
+
+.text2 p {
+    font-family: inherit;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.lyphoto2 {
+    width:250px;
+    height: 250px;
+    margin-left: 900px;
+    margin-top: -250px;
+}
+
+.lytalk {
+    width:300px;
+    height: 85px;
+    background-image: url(./play图片/粉色对话框.png);
+    background-size: cover;
+    margin-left:1000px;
+    margin-top: -330px;
+}
+
+.lytalk p {
+    font-family: inherit;
+    font-size: 15px;
+    color:rgb(116, 61, 61);
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+}
+
+/*底部文本*/
+.footer {
+    background-color:pink;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 300px;
+}

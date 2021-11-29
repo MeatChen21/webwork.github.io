@@ -1,0 +1,283 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background-image: url(../新想事成.JPG);
+    background-size:100% 100%; 
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0;
+}
+
+/*标题*/
+.header {
+    float: left;
+    position: relative;
+    margin-left:130px;
+    margin-right:300px ;
+    margin-top: 90px;
+}
+.header h1 {
+    color:pink;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:5px 5px rgb(2, 2, 2);
+    font-size:100px;
+    line-height: 60%;
+}
+
+/*标题装饰*/
+.xingqiu {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-left:80px;
+    margin-top: 110px;
+    background-image: url(../星球.png);
+    background-size: cover;
+}
+.brush {
+    position: absolute;
+    background-image: url(../brushblue.png);
+    background-size: cover;
+    width:280px;
+    height: 85px;
+    margin-left: 340px;
+    margin-top:195px;
+    opacity:0.9;
+    filter:alpha(opacity=90); /*  IE8 及其更早版本 */
+}
+
+
+
+
+/*小人*/
+.hat {
+    background-image: url(./word图片/帽子小人.png);
+    background-size: cover;
+    width: 300px;
+    height:300px;
+    margin-left: 700px;
+    margin-top: 0px;
+}
+
+.hatw {
+    background-image: url(./word图片/猫爪对话框.png);
+    background-size: cover;
+    width:200px;
+    height:170px;
+    margin-left: 1000px;
+    margin-top: -300px;
+}
+
+.hatw p {
+    font-family: inherit;
+    font-size: 18px;
+    color: rgb(15, 14, 6);
+    text-align: center;
+    padding-top: 40px;
+    line-height: 200%;
+}
+
+
+/*导航条*/
+.topmenu {
+    position: absolute;
+    list-style-type: none;
+    margin-left: 145px;
+    margin-top: -55px;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+    width:388px;
+    border: snow solid 5px;
+    border-radius:25px;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a {
+    display: inline-block;
+    color: white;
+    font-size:150% ;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.topmenu li a:hover {
+    background-color: rgb(248, 134, 153);
+}
+.topmenu li a.active {
+    color: white;
+    background-color: rgb(248, 134, 153);
+}
+.array {
+    background-image: url(../array.png);
+    background-size: cover;
+    width:96px;
+    height:55px;
+    margin-left: 555px;
+    margin-top: -55px;
+}
+.topmenuw {
+    background-color: peachpuff;
+    width: 500px;
+    margin-left: 670px;
+    margin-top: -58px;
+}
+.topmenuw p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: slateblue;
+    font-size:25px;
+    text-align:center;
+}
+
+
+
+/*分割线*/
+hr {
+    border: 6px dashed salmon; 
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 110px;
+}
+
+/*内容*/
+
+.polaroid1 {
+    width:300px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 70px;
+}
+.container1 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid2 {
+    width:300px;
+    height: 515px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.container2 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid3 {
+    width:300px;
+    height: 515px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.container3 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid4 {
+    width:300px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 1050px;
+    margin-top: -1613px;
+}
+.container4 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid5 {
+    width:300px;
+    height: 515px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 1050px;
+    margin-top: 40px;
+}
+.container5 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid6 {
+    width:300px;
+    height: 515px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 1050px;
+    margin-top: 40px;
+}
+.container6 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.header2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    border:rgb(255, 155, 130) dotted 5px;
+    width: 400px;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+/*计数器*/
+.word {
+    counter-reset: section;
+    margin-left: 420px;
+    margin-top: -1600px;
+    width:580px;
+    height:1570px;
+    background-color:white;
+    opacity:0.95;
+    filter:alpha(opacity=95); /*  IE8 及其更早版本 */
+    padding: 5px;
+}
+.word p::before {
+    counter-increment:section;
+    content: "💗" counter(section)":";
+}
+
+/*其他装饰*/
+.city {
+    position: relative;
+    background-image: url(./word图片/城市.png);
+    background-size: cover;
+    width:580px;
+    height:130px;
+    margin-left: 420px;
+    margin-top:-150px;
+    z-index: 1;
+}
+
+/*底部文本*/
+.footer {
+    background-color:pink;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px;
+}

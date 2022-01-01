@@ -189,6 +189,7 @@
         margin-top: -58px;
     }
     .topmenuw p {
+        line-height: 2em;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: slateblue;
         font-size:25px;
@@ -245,7 +246,7 @@
         width: 420px;
         height: 200px;
         margin-left: 450px;
-        margin-right: 300px;;
+        margin-right: 300px;
         margin-top: 30px;
     }
     .word1 h1 {
@@ -341,6 +342,31 @@
         visibility: visible;
     }
 
+    .email {
+        width: 500px;
+        height: 300px;
+        margin-left: 100px;
+        margin-right: 300px;
+        margin-top: 30px;
+        background-color:rgb(253, 219, 225);
+    }
+
+    .email h3 {
+        font-family: inherit;
+        font-size: 17px;
+        color: black;
+        font-weight: bolder;
+        line-height: 160%;
+        background-color:white;
+        opacity:0.8;
+        filter:alpha(opacity=80);
+    }
+
+    .share {
+        margin-left: 200px;
+        margin-right: 300px;
+        margin-top: -80px;
+    }
 
     /*底部文本*/
     .footer {
@@ -350,4 +376,25 @@
         font-size: 16px;
         text-align: center;
         margin-top: 30px;
+    }
+
+    /*安全字体*/
+    p.serif {
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+            width: 100%;
+            padding: 0;
+        }
+    }
+    
+    /* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+    @media screen and (max-width: 400px) {
+        .topnav a {
+            float: none;
+            width: 100%;
+        }
     }
